@@ -1,0 +1,199 @@
+
+
+*{
+    font-family: Roboto,Arial,sans-serif;
+}.logo{
+    width: 200px;
+    height: 90px;
+  }
+  
+  Nav .active{
+    color: #00b39b !important;
+   
+  }
+  Nav .linkNav:hover{
+    color: #00b39b !important;
+  }
+  .navbar{
+    background-color: #fff;
+  
+    height: 90px;
+  }
+
+
+/*******/
+
+h1, h4{
+    color: #00b39b;
+    font-family: 'Work Sans', sans-serif;
+}  
+.parag p{
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}    
+p{
+    color: grey;
+}  
+
+/* *****section 3********************* */
+.icon-center{
+    width: 50px;
+}
+.tailleIcon{
+    width: 10rem;
+    filter: grayscale(100%);
+}
+.tailleIconGip{
+    width: 3rem;
+    filter: grayscale(100%);
+}
+.tailleIconTuo{
+    width: 7rem;
+    filter: grayscale(100%);
+}
+.tailleIcon:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.tailleIconGip:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+/******************************************************/
+.card-patient{
+    background-color: #00ccB1;
+    border-radius: 15px;
+    color: #fff;
+    height: 350px;
+}
+.card-patient:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.card-doc{
+    background-color: #3d83df;
+    border-radius: 12px;
+    height: 350px;
+}
+.card-doc:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.card-clic{
+    background-color: #1b2734;
+    border-radius: 12px;
+    height: 350px;
+}
+.card-clic:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.cardIcon{
+    width: 60px;
+    height: 60px;   
+}
+.text{
+    color: #fff;
+}
+
+.selectCateg{
+    border: 0  !important; 
+    text-decoration: underline;
+    background: transparent;
+    cursor: pointer;
+    outline: 0; 
+    color:#fff;  
+    -webkit-appearance:none; 
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+}
+/* *****Text********************* */
+.tailleIcon{
+    width: 10rem;
+    filter: grayscale(100%);
+}
+.tailleIconGip{
+    width: 3rem;
+    filter: grayscale(100%);
+   
+}
+.tailleIcon1{
+    width: 10rem;
+    filter: grayscale(100%);
+    margin-top: -23px;
+}
+.tailleIconTuo{
+    width: 7rem;
+    filter: grayscale(100%);
+    margin-top: -20px;
+}
+.tailleIcon:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.tailleIconGip:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.tailleIconTuo:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+/* *********Textcard**************** */
+.section4{
+    background: #edfcfa;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    height: 600px;
+}
+.logoPng{
+    margin-top: 20px;
+    margin-left: -40px;
+    width: 350px;
+    height: 350px;
+}
+
+.buton{
+    opacity: 0.8;
+}
+.buton:hover{
+    opacity: 1;
+}
+.cardIcons{
+    width: 35px;
+    margin-top: 5px;
+}
+
+.cardSec4{
+    border-radius: 8px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    width: 200px;
+    height: 250px;
+}
+.cardSec5{
+    border-radius: 8px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    width: 200px;
+    margin-left:-70px;
+    height: 250px;
+}
+.cardSec6{
+    border-radius: 8px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    width: 200px;
+    height: 250px;
+    
+}
+.cardSec7{
+    border-radius: 8px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    width: 200px;
+    margin-left:-70px;
+    height: 250px;
+}
+/**************footer***************/
+
+.horizLine{
+    border-top: 1px solid rgb(199, 196, 196);
+}

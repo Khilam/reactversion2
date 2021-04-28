@@ -192,6 +192,28 @@ p{
     margin-left:-70px;
     height: 250px;
 }
+/******cities*****/
+.button:hover{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.425);
+    transition: box-shadow .2s ease 0s;
+    cursor: pointer;
+    
+}
+
+.box{
+  
+}
+
+.style{
+ 
+    display:flex;
+}
+Button{
+    background-color: blue;
+    width: 150px;
+    height: 40px;
+    
+}
 /**************footer***************/
 
 .horizLine{

@@ -1,46 +1,61 @@
 import React from 'react'
-import {Card, Button} from 'react-bootstrap'
+
+
+import {Card, Button, Container, Row} from 'react-bootstrap'
 
 
 
-    const CityInfo = [
-        {image:"/home/mouna/Bureau/react2/react2/src/images/warsaw.png", title:"Warsaw", Button:"See openings"},
-        {image:"/home/mouna/Bureau/react2/react2/src/images/barcelona.png", title:"Barcelona", Button:"See openings"},
-        {image:"/home/mouna/Bureau/react2/react2/src/images/istanbul.png", title:"Istanboul", Button:"See openings"},
-        {image:"/home/mouna/Bureau/react2/react2/src/images/rome.png", title:"Rome", Button:"See openings"},
-        {image:"/home/mouna/Bureau/react2/react2/src/images/bologna.png", title:"Bologna", Button:"See openings"},
-        {image:"/home/mouna/Bureau/react2/react2/src/images/curitiba.png", title:"Curitiba", Button:"See openings"},
-        {image:"/home/mouna/Bureau/react2/react2/src/images/mexico-city.png", title:"Mexico City", Button:"See openings"}
+    const Cities = [
+        {image:'https://www.docplanner.com/images/warsaw.png', title:"Warsaw", Button:"See openings"},
+        {image:"https://www.docplanner.com/images/barcelona.png", title:"Barcelona", Button:"See openings"},
+        {image:"https://www.docplanner.com/images/istanbul.png", title:"Istanboul", Button:"See openings"},
+        {image:"https://www.docplanner.com/images/rome.png", title:"Rome", Button:"See openings"},
+        {image:"https://www.docplanner.com/images/bologna.png", title:"Bologna", Button:"See openings"},
+        {image:"https://www.docplanner.com/images/curitiba.png", title:"Curitiba", Button:"See openings"},
+        {image:"https://www.docplanner.com/images/mexico-city.png", title:"Mexico City", Button:"See openings"}
         
 
     ]
-    /*
-    function Cities  () {
     
-    return 
-        <div className="style">
-            {CityInf.map (el=>
-                <div>
-                    <div title = {el.title} img={el.image}>
-                    </div>
-                    
-                    </div>)}
-        </div>
-    
-    
-    
-       
-}
-function CityInf (props){
+    function CityInf (props){
     return (
-        <div>
-            <h3>(props.title)</h3>
-            <img>(props.image)</img>
-            <button>(props.button)</button>
-        </div>
+       
+            
+       
+        <Card className='box' style={{ width: '18rem' }} >
+        <img className="explore-img my-3" src={props.image}/>
+        <Card.Body>
+          <Card.Title>{props.title}</Card.Title>
+          
+          <Button variant="primary">{props.Button} See openings</Button>
+        </Card.Body>
+      </Card> 
+    
+    
     )
 }
 
-export default Cities*/
+    function cities () {
+    
+    return (
 
-
+        
+        <card>
+        <div className="style grid">
+        <Container>
+        <Row className='d-flex justify-content-around mt-5'>
+            {Cities.map(element=>
+                <div>
+                    <CityInf title = {element.title} image={element.image} button ={element.button}/>
+                    </div>  
+                     
+                     )}
+                     </Row>
+                     </Container>
+            </div>
+            </card>
+            
+    )}
+            
+    
+export default cities

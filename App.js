@@ -3,6 +3,7 @@ import {Container, Row, Col, Button} from 'react-bootstrap';
 import Cards from '/home/mouna/Bureau/react2/react2/src/components/cards1.js'
 import Navnav from '/home/mouna/Bureau/react2/react2/src/components/navbar.js'
 import Text from '/home/mouna/Bureau/react2/react2/src/components/text.js'
+import Cities from '/home/mouna/Bureau/react2/react2/src/components/cities.js'
 import Footer from '/home/mouna/Bureau/react2/react2/src/components/footer.js'
 //import Cities from '/home/mouna/Bureau/react2/react2/src/components/cities.js'
 import Textcard from '/home/mouna/Bureau/react2/react2/src/components/textcard.js'
@@ -57,7 +58,7 @@ function Appli() {
  </div>
  {/****************cities *************/}
 
-
+<Cities/>
  {/**************pre-footer ********/}
 
  <div className="py-5">
